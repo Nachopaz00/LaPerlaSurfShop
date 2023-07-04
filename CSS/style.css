@@ -51,3 +51,19 @@
 
 .footer {
   grid-area: footer; }
+  .footer img {
+    padding: 5px;
+    width: 50px; }
+  .footer ul {
+    display: flex;
+    justify-content: center; }
+    .footer ul li {
+      list-style: none;
+      border-radius: 5px;
+      display: inline-block;
+      text-align: center;
+      width: 45px;
+      height: 45px; }
+      .footer ul li a {
+        justify-content: center;
+        text-decoration: none; }

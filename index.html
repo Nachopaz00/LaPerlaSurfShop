@@ -12,70 +12,94 @@
 </head>
 
 <body>
-  <div class="contenedor">
-    <div class="header">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"><img src="./imagenes/Logo.png" alt="logo" id="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hombre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mujer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Niños</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Surf</a>
-              </li>
-            </ul>
-          </div>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img src="./imagenes/Logo.png" alt="logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Niños</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Surf</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
-    <div class="banner">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./imagenes/1.png" class="d-block w-100" alt="propaganda1">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./imagenes/2.png" class="d-block w-100" alt="Invierno2023">
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="contenedor">
+      <div class="banner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="./imagenes/1.png" class="d-block w-100" alt="propaganda1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagenes/2.png" class="d-block w-100" alt="Invierno2023">
+            </div>
           </div>
         </div>
       </div>
+      <div class="main-hombre">
+        <a href="./sections/hombre.html"><img src="./imagenes/men.jpg" alt="men">
+          <H2>HOMBRE</H2>
+        </a>
+      </div>
+      <div class="main-mujer">
+        <a href="./sections/mujer.html"><img src="./imagenes/women.jpg" alt="men">
+          <H2>MUJER</H2>
+        </a>
+      </div>
+      <div class="main-niños">
+        <a href="./sections/nino.html"><img src="./imagenes/kid.jpg" alt="men">
+          <H2>NIÑO</H2>
+        </a>
+      </div>
+      <div class="main-surf">
+        <a href="./sections/surf.html"><img src="./imagenes/surf.jpg" alt="men">
+          <H2>SURF</H2>
+        </a>
+      </div>
+  </main>
+  <footer class="footer">
+    <div class="redes">
+      <ul>
+        <li>
+          <a href="./index.html"><img src="./imagenes/facebook_logo.png" alt=""></a>
+        </li>
+        <li>
+          <a href="./index.html"><img src="./imagenes/instagram_logo.png" alt=""></a>
+        </li>
+        <li>
+          <a href="./index.html"><img src="./imagenes/twitter_logo.png" alt=""></a>
+        </li>
+        <li>
+          <a href="./index.html"><img src="./imagenes/whatsapp_logo.png" alt=""></a>
+        </li>
+      </ul>
     </div>
-    <div class="main-hombre">
-      <a href="./sections/hombre.html"><img src="./imagenes/men.jpg" alt="men">
-        <H2>HOMBRE</H2>
-      </a>
+    <div>
+      <a href="https://github.com/Nachopaz00">ⓇComision 43120</a>
     </div>
-    <div class="main-mujer">
-      <a href="./sections/mujer.html"><img src="./imagenes/women.jpg" alt="men">
-        <H2>MUJER</H2>
-      </a>
-    </div>
-    <div class="main-niños">
-      <a href="./sections/nino.html"><img src="./imagenes/kid.jpg" alt="men">
-        <H2>NIÑO</H2>
-      </a>
-    </div>
-    <div class="main-surf">
-      <a href="./sections/surf.html"><img src="./imagenes/surf.jpg" alt="men">
-        <H2>SURF</H2>
-      </a>
-    </div>
-    <div class="footer"></div>
+
+  </footer>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
