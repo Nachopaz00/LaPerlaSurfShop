@@ -1,0 +1,16 @@
+.header{
+    img{
+        width: 150px;
+    }
+    .bg-body-tertiary{
+        height: 120px;
+        background-color: coral !important;
+    }
+}
+
+.navbar-expand-lg 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header { grid-area: header; }

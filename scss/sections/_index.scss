@@ -1,0 +1,24 @@
+
+
+.main-hombre {
+
+    @extend .centrar;
+    grid-area: main-hombre;
+}
+
+.main-mujer {
+    
+    grid-area: main-mujer;
+    @extend .centrar;
+}
+
+.main-niños {
+    
+    @extend .centrar;
+    grid-area: main-niños;
+}
+
+.main-surf {
+    @extend .centrar;
+    grid-area: main-surf;
+}

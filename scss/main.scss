@@ -1,4 +1,15 @@
-h1{
-    color: red;
-    border: blue, solid, 1px;
-}
+@import './utility/color';
+@import './utility/typo';
+
+@import './utility/reset';
+@import './utility/mixin-y-extend';
+
+@import './sections/contenedor';
+@import './sections/header';
+@import './sections/banner';
+@import './sections/index';
+@import './sections/footer';
+@import './sections/hombre';
+@import './sections/mujer';
+@import './sections/nino';
+@import './sections/surf';
