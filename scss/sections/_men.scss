@@ -1,12 +1,15 @@
+.title{
+    padding-top: 230px;
+}
+
 .containerPages {
 
     .mainPages {
-        margin-top: 120px;
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
-        
+
 
         .card {
 
@@ -42,14 +45,15 @@
                 display: flex;
             }
 
-            h1{
+            h1 {
                 margin-top: 200px;
             }
 
         }
     }
 
-    .aside{
+    .aside {
         margin-top: 120px;
     }
 }
+

@@ -77,8 +77,11 @@
         justify-content: center;
         text-decoration: none; }
 
+.title {
+  padding-top: 230px; }
+
 .containerPages .mainPages {
-  margin-top: 120px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
