@@ -23,11 +23,14 @@
 .containerPages {
   display: grid;
   grid-template-columns: 0.5fr 1.3fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
   gap: 0px 0px;
   grid-template-areas: "header header" "aside main" "footer footer"; }
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
   grid-area: header; }
   .header .nav-item img {
     width: 20px; }
@@ -75,21 +78,28 @@
         text-decoration: none; }
 
 .containerPages .main {
-  display: flex; }
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
   .containerPages .main .card {
+    margin: 5px;
     display: flex;
     width: 300px;
-    height: 450px;
+    height: 400px;
     align-items: center;
     border: 2px solid cornflowerblue; }
     .containerPages .main .card img {
       display: flex;
       align-items: center;
-      width: 250px; }
+      width: 200px; }
     .containerPages .main .card h6 {
       margin: 5px; }
-    .containerPages .main .card h5 {
-      border: 2px solid orange;
-      border-radius: 5px; }
+    .containerPages .main .card a {
+      padding-top: 15px; }
+      .containerPages .main .card a h5 {
+        margin-top: 6px;
+        border: 2px solid orange;
+        border-radius: 5px; }
     .containerPages .main .card h4 {
       display: flex; }

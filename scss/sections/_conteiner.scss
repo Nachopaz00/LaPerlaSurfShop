@@ -13,7 +13,7 @@
 .containerPages {
   display: grid;
   grid-template-columns: 0.5fr 1.3fr;
-  grid-template-rows: 0.4fr 2.2fr 0.4fr;
+  // grid-template-rows: 0.4fr 1.5fr 0.4fr;
   gap: 0px 0px;
   grid-template-areas:
     "header header"

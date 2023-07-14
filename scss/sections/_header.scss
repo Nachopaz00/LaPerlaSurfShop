@@ -1,9 +1,14 @@
  .header {
-    .nav-item{
-        img {
-            width: 20px;
-        }
-    }
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 9999;
+     .nav-item {
+         img {
+             width: 20px;
+         }
+     }
+
      img {
          width: 150px;
      }
