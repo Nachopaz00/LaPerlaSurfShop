@@ -1,7 +1,6 @@
-.contenedor {
+.conteinerMain {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
-    // grid-template-rows: 0.3fr 1.2fr repeat(2, 2.0fr) 0.7fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       "header header"
@@ -11,8 +10,7 @@
       "footer footer";}
   
   
-  
-  
+
   
   
   
