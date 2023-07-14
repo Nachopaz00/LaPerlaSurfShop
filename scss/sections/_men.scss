@@ -1,0 +1,34 @@
+.containerPages {
+    .main {
+        display: flex;
+        
+        .card {
+            display: flex;
+            width: 300px;
+            height: 450px;
+            align-items: center;
+            border: 2px solid cornflowerblue;
+
+            img {
+                display: flex;
+                align-items: center;
+                width: 250px;
+            }
+
+            h6 {
+
+                margin: 5px;
+            }
+
+            h5 {
+                border: 2px solid orange;
+                border-radius: 5px;
+            }
+
+            h4 {
+                display: flex;
+            }
+
+        }
+    }
+}

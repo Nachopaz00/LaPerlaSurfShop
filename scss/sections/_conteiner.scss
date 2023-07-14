@@ -1,19 +1,22 @@
 .conteinerMain {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "header header"
-      "banner banner"
-      "main-hombre main-mujer"
-      "main-niños main-surf"
-      "footer footer";}
-  
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header"
+    "banner banner"
+    "main-hombre main-mujer"
+    "main-niños main-surf"
+    "footer footer";
+}
 
-  
-  
-  
- 
-  
-  
+.containerPages {
+  display: grid;
+  grid-template-columns: 0.5fr 1.3fr;
+  grid-template-rows: 0.4fr 2.2fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}

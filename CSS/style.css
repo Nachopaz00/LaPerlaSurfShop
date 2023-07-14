@@ -14,72 +14,30 @@
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px; }
 
-.contenedor {
+.conteinerMain {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px 0px;
   grid-template-areas: "header header" "banner banner" "main-hombre main-mujer" "main-niños main-surf" "footer footer"; }
 
-.header {
-  background-color: #f88e4c;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  justify-content: space-between; }
-  .header .logo img {
-    width: 130px; }
-  .header .menu ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0; }
-  .header .menu li {
-    margin-right: 10px; }
-  .header .menu li a {
-    color: #fff;
-    text-decoration: none; }
-  .header .user {
-    margin-left: 10px; }
-    .header .user img {
-      width: 25px; }
-  .header .hamburger {
-    display: none;
-    cursor: pointer; }
-  .header .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0; }
-  .header .content {
-    padding: 20px; }
-
-@media (max-width: 768px) {
-  .menu ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #333;
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s; }
-  .menu ul.show {
-    visibility: visible;
-    opacity: 1; }
-  .menu li {
-    margin-bottom: 10px; }
-  .user {
-    display: none; }
-  .hamburger {
-    display: block; } }
+.containerPages {
+  display: grid;
+  grid-template-columns: 0.5fr 1.3fr;
+  grid-template-rows: 0.4fr 2.2fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas: "header header" "aside main" "footer footer"; }
 
 .header {
   grid-area: header; }
+  .header .nav-item img {
+    width: 20px; }
+  .header img {
+    width: 150px; }
+  .header .bg-body-tertiary {
+    height: 120px;
+    background-color: coral !important; }
+  .header .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
 
 .banner {
   padding-top: 5px;
@@ -115,3 +73,23 @@
       .footer ul li a {
         justify-content: center;
         text-decoration: none; }
+
+.containerPages .main {
+  display: flex; }
+  .containerPages .main .card {
+    display: flex;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    border: 2px solid cornflowerblue; }
+    .containerPages .main .card img {
+      display: flex;
+      align-items: center;
+      width: 250px; }
+    .containerPages .main .card h6 {
+      margin: 5px; }
+    .containerPages .main .card h5 {
+      border: 2px solid orange;
+      border-radius: 5px; }
+    .containerPages .main .card h4 {
+      display: flex; }
