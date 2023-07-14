@@ -1,12 +1,12 @@
 @charset "UTF-8";
-.centrar, .main-hombre, .main-mujer, .main-niños, .main-surf {
+.centrar, .mainIndex .main-hombre, .mainIndex .main-mujer, .mainIndex .main-niños, .mainIndex .main-surf {
   position: relative;
   display: inline-block; }
-  .centrar img, .main-hombre img, .main-mujer img, .main-niños img, .main-surf img {
+  .centrar img, .mainIndex .main-hombre img, .mainIndex .main-mujer img, .mainIndex .main-niños img, .mainIndex .main-surf img {
     padding: 5px;
     display: block;
     max-width: 100%; }
-  .centrar h2, .main-hombre h2, .main-mujer h2, .main-niños h2, .main-surf h2 {
+  .centrar h2, .mainIndex .main-hombre h2, .mainIndex .main-mujer h2, .mainIndex .main-niños h2, .mainIndex .main-surf h2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,19 +46,19 @@
   padding-top: 5px;
   grid-area: banner; }
 
-.main-hombre {
-  grid-area: main-hombre; }
-
-.main-mujer {
-  grid-area: main-mujer; }
-
-.main-niños {
-  grid-area: main-niños; }
-
-.main-surf {
-  grid-area: main-surf; }
+.mainIndex {
+  margin-top: 120px; }
+  .mainIndex .main-hombre {
+    grid-area: main-hombre; }
+  .mainIndex .main-mujer {
+    grid-area: main-mujer; }
+  .mainIndex .main-niños {
+    grid-area: main-niños; }
+  .mainIndex .main-surf {
+    grid-area: main-surf; }
 
 .footer {
+  margin-top: 50px;
   grid-area: footer; }
   .footer img {
     padding: 5px;
@@ -77,29 +77,34 @@
         justify-content: center;
         text-decoration: none; }
 
-.containerPages .main {
-  margin-top: 60px;
+.containerPages .mainPages {
+  margin-top: 120px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .containerPages .main .card {
+  .containerPages .mainPages .card {
     margin: 5px;
     display: flex;
     width: 300px;
     height: 400px;
     align-items: center;
     border: 2px solid cornflowerblue; }
-    .containerPages .main .card img {
+    .containerPages .mainPages .card img {
       display: flex;
       align-items: center;
       width: 200px; }
-    .containerPages .main .card h6 {
+    .containerPages .mainPages .card h6 {
       margin: 5px; }
-    .containerPages .main .card a {
+    .containerPages .mainPages .card a {
       padding-top: 15px; }
-      .containerPages .main .card a h5 {
+      .containerPages .mainPages .card a h5 {
         margin-top: 6px;
         border: 2px solid orange;
         border-radius: 5px; }
-    .containerPages .main .card h4 {
+    .containerPages .mainPages .card h4 {
       display: flex; }
+    .containerPages .mainPages .card h1 {
+      margin-top: 200px; }
+
+.containerPages .aside {
+  margin-top: 120px; }

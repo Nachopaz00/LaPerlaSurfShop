@@ -1,24 +1,26 @@
+.mainIndex {
+    margin-top: 120px;
 
+    .main-hombre {
 
-.main-hombre {
+        @extend .centrar;
+        grid-area: main-hombre;
+    }
 
-    @extend .centrar;
-    grid-area: main-hombre;
-}
+    .main-mujer {
 
-.main-mujer {
-    
-    grid-area: main-mujer;
-    @extend .centrar;
-}
+        grid-area: main-mujer;
+        @extend .centrar;
+    }
 
-.main-niños {
-    
-    @extend .centrar;
-    grid-area: main-niños;
-}
+    .main-niños {
 
-.main-surf {
-    @extend .centrar;
-    grid-area: main-surf;
+        @extend .centrar;
+        grid-area: main-niños;
+    }
+
+    .main-surf {
+        @extend .centrar;
+        grid-area: main-surf;
+    }
 }
